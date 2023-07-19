@@ -78,6 +78,7 @@ ul {
 
 .hero-name {
     line-height: 1.1;
+    font-size: 18px;
 }
 
 .hero-title.text {
@@ -85,11 +86,22 @@ ul {
     font-weight: 700;
     font-family: 'Play', sans-serif;
     color: var(--color-brand-dark);
+    line-height: 0.8;
 }
+
+.hero-title.text.normal {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Play', sans-serif;
+    color: var(--color-brand-dark);
+    line-height: normal;
+}
+
 
 .hero-text {
     color: var(--color-secondary-grey);
     line-height: 1.5;
+    font-size: 12px;
 }
 
 .hero-div {
@@ -112,11 +124,22 @@ ul {
 /* Procedures section */
 .procedures-text {
     color: var(--color-primary-light);
+    line-height: 1.1;
 }
 
 /* Contact-section */
 .contact-text {
     color: var(--color-primary-light);
+    line-height: 1.1;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.contact-policy {
+    color: var(--color-secondary-brown);
+    line-height: 1.5;
+    font-size: 12px;
+    text-decoration-line: underline;
 }
 
 
@@ -172,6 +195,7 @@ footer {
     text-decoration: none;
     font-size: 16px;
     font-style: normal;
+    line-height: 1.1;
 }
 
 .address-copyright {
