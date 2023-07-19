@@ -149,8 +149,9 @@ ul {
     font-size: 18px;
     font-weight: 600;
     border-radius: 32px;
-    border: 0px solid var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
     background-color: var(--color-brand-light);
+    cursor: pointer;
 }
 
 .button:hover {
